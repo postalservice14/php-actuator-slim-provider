@@ -17,11 +17,6 @@ Via Composer
 $ composer require postalservice14/php-actuator-slim-provider
 ```
 
-## Parameters
-
-* **health.indicators**: An array of indicators to be used. Key as indicator name, value as indicator object.
-* **health.endpoint**: Endpoint for health checks.  Defaults to "/health".
-
 ## Registering
 
 ```php
